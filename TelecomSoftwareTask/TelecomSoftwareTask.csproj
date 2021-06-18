@@ -8,9 +8,8 @@
 
   <ItemGroup>
     <Folder Include="Controller\" />
-    <Folder Include="Data\" />
     <Folder Include="Model\" />
-    <Folder Include="Resources\" />
+    <Folder Include="Resources\Styles\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +18,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Persons\Persons.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\IncommingsData\PhoneBook_UTF8.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
