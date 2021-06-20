@@ -46,6 +46,12 @@
                 </GroupBox.Header>
 
                 <DataGrid x:Name="dgListOfNameVersions" Margin="10">
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Command="Copy" />
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+                    
                     <DataGrid.Columns>
                         <DataGridTextColumn Binding="{Binding IncommingName}" Header="Incomming Name"/>
 
