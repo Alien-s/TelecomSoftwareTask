@@ -58,7 +58,7 @@
                         <DataGridTemplateColumn Header="Collection of Names">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <ComboBox ItemsSource="{Binding ParticalChangedName}"/>
+                                    <ComboBox ItemsSource="{Binding ParticalChangedName}" SelectedValue="ParticalChangedName.Count"/>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
